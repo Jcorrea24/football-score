@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>⚽ Live Scores</h1>
+        <h1>⚽ Resultados de Partidos</h1>
       </header>
       <main>
         <MatchList />
