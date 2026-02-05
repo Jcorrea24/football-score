@@ -2,13 +2,9 @@ const API_KEY = import.meta.env.VITE_API_TOKEN;
 
 const BASE_URL = '/api';
 
-export const fetchMatches = async (date) => {
+export const fetchMatches = async () => {
     try {
-        let url = `${BASE_URL}/matches`;
-        if (date) {
-            url += `?dateFrom=${date}&dateTo=${date}`;
-        }
-        const response = await fetch(url, {
+        const response = await fetch(`${BASE_URL}/matches`, {
             headers: {
                 'X-Auth-Token': API_KEY,
             },
