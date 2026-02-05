@@ -1,5 +1,5 @@
 const API_KEY = import.meta.env.VITE_API_TOKEN;
-const API_KEY = import.meta.env.VITE_API_TOKEN;
+
 const BASE_URL = import.meta.env.DEV ? '/api' : 'https://api.football-data.org/v4';
 
 export const fetchMatches = async () => {

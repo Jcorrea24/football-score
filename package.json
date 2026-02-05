@@ -1,6 +1,7 @@
 {
   "name": "football-scores",
   "private": true,
+  "homepage": "https://julio-correea.github.io/football-scores",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
