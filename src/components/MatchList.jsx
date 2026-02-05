@@ -79,8 +79,8 @@ const MatchList = () => {
                                     </div>
 
                                     <div className="team-section away">
-                                        <span className="team-name">{match.awayTeam.shortName || match.awayTeam.name}</span>
                                         <img src={match.awayTeam.crest} alt={match.awayTeam.name} className="team-logo" />
+                                        <span className="team-name">{match.awayTeam.shortName || match.awayTeam.name}</span>
                                     </div>
                                 </div>
                             </div>
